@@ -100,8 +100,8 @@ html {
 }
 
 body {
-  font-family: 'Noto serif', serif;
-  font-size: 16px;
+  font-family: 'PT Serif',Georgia,serif;
+  font-size: 18px;
   /* 16px is the standard font size and coul be replaced by 1em. 16px=1em. 
 	Use this conversion table to calculate pixels to em's http://pxtoem.com/ 
 	An em unit is a size relative to the current font size of that tag. 
@@ -139,7 +139,7 @@ header {
 	background-image:url("insert here th url of the image");  */
   background-size: cover;
   color: #ffffff;
-  font-family: Roboto, sans-serif;
+  font-family: AdelleBold,'Helvetica Neue', Helvetica, sans-serif; 
   text-align: center;
 }
 
@@ -147,7 +147,7 @@ header {
 
 /*header h1 story title*/
 .display {
-  font-size: 56px;
+  font-size: 60px;
   font-weight: 700;
   line-height: 1.2;
   padding: 40px 20px 10px 20px;
@@ -231,7 +231,7 @@ li {
 nav ul li a {
   color: #ffffff;
   font-family: Roboto, sans-serif;
-  font-size: 14px;
+  font-size: 25px;
   font-weight: 400;
   text-decoration: none;
   text-transform: uppercase;
