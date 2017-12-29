@@ -342,7 +342,7 @@ a:hover {
 /* Blockquotes */
 
 blockquote {
-  border-top: 6px solid #ff6a2b;
+  border-top: 2px solid #ff6a2b;
   border-bottom: 2px solid #ff6a2b;
   color: #0a0a0a;
   font-family: Roboto, sans-serif;
