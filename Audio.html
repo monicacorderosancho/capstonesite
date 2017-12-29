@@ -1,0 +1,162 @@
+<!-- ///// NEW PAGE /////// -->
+<!DOCTYPE html>
+<html lang="en">
+<!-- Defines language -->
+
+<head>
+
+	<title>La adicción a la heroína: Un ciclo sin fin</title>
+	<!-- Go to http://fontawesome.io/get-started/ to generate your own embed code
+		and discover what you can do! Hint: see the footer social media links.
+		FAQ: https://cdn.fontawesome.com/help#qa-icons-code -->
+	<script src="https://use.fontawesome.com/701d683477.js"></script>
+	<meta charset="utf-8">
+	<!-- characters encoding -->
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<!-- Tells Internet Explorer how to behave in regards to the value you set (IE=edge for Internet Explorer Edge, etc). More info: https://stackoverflow.com/questions/6771258/what-does-meta-http-equiv-x-ua-compatible-content-ie-edge-do -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Basic metadata about you and the content of this page -->
+	<meta name="author" content="Monica Cordero Constanza Gallardo, Camila Montañez, Joaquín Torres; CUNY Graduate School of Journalism">
+	<meta name="description" content="La DEA tiene identificado al Bronx como un centro neurálgico del mercado de heroína para el noreste de los Estados Unidos. Este condado recibe cargamentos de droga provenientes de Sinaloa, México, y desde ahí se distribuye hacia las principales ciudades del este del país">
+	<meta name="keywords" content="heroina,Bronx,Nueva York" />
+	<!-- Meta data for Facebook  -->
+	<meta property="og:site_name" content="..." />
+	<!-- add website domain name -->
+	<meta property="og:title" content="Detrás de la industria de heroina del Bronx, la sede central del tráfico en el noreste">
+	<!-- add story title -->
+	<meta property="Detrás de la industria de heroina del Bronx, la sede central del tráfico en el noreste" content="...">
+	<!-- add a longer story title -->
+	<meta property="og:image" content="..." />
+	<!-- add url or path to image you want people to see on Facebook when you share the ling to this story -->
+	<meta property="og:description" content="..." />
+	<!-- add a short summary or lead you want people to see on Facebook when you share the ling to this story -->
+	<meta property="og:url" content="..." />
+	<!-- add the webpage url -->
+	<meta property="og:type" content="article" />
+	<!-- type of content: it's an article -->
+	<!-- Twitter meta data -->
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:site" content="..." />
+	<!-- add your twitter handle like @yourname or https://twitter.com/yourname -->
+	<!-- CSS Styles -->
+	<link href="css/normalize.css" rel="stylesheet" type="text/css">
+	<link href="css/main.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Serif|Roboto:400,700" rel="stylesheet">
+	<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+	<link href="https://cdn.jsdelivr.net/mediaelement/latest/mediaelementplayer.css" rel="stylesheet"/>
+	<script src="https://cdn.jsdelivr.net/mediaelement/latest/mediaelement-and-player.min.js"></script>
+
+	<script>
+		if (mejs.Features.isiOS) {
+							 $('select').find('option[value^="rtmp"]').prop('disabled', true)
+									 .end()
+									 .find('option[value$="webm"]').prop('disabled', true)
+									 .end()
+									 .find('option[value$=".mpd"]').prop('disabled', true)
+									 .end()
+									 .find('option[value$=".ogg"]').prop('disabled', true)
+									 .end()
+									 .find('option[value*=".flv"]').prop('disabled', true);
+					 }
+
+					 $('select').change(function () {
+							 var
+									 _this = $(this),
+									 media = _this.closest('div').prev('div').children('div:first').attr('id');
+
+							 mejs.players[media].setSrc(_this.val());
+							 mejs.players[media].setPoster('');
+							 mejs.players[media].load();
+					 });
+
+					 $(document).ready(function() {
+							 $('video, audio').mediaelementplayer({
+									 pluginPath: 'dist/',
+									 success: function () {
+											 $('.player').css('visibility', 'visible');
+									 }
+							 });
+					 });
+
+
+	</script>
+
+	<body>
+		<!-- Body content goes here -->
+		<header>
+			<!-- Header content goes here -->
+			<!-- Navigation menu -->
+			<nav>
+				<ul>
+					<!-- Deactivate until adding a logo <li><a href="#"<img id="logo" src="images/strikethrough.svg" alt="LOGO"></a> -->
+					<!--<li><a href="#">About Us</a> -->
+					</li>
+					<li><a href="#story1">Story 1</a>
+					</li>
+					<li><a href="#story2">Story 2</a>
+					</li>
+					<li><a href="#story3">Story 3</a>
+					</li>
+					<li><a href="#story4">Story 4</a>
+					</li>
+				</ul>
+			</nav>
+			<!-- Story headline, lead and byline -->
+			<h1 class="display">La adicción a la heroína: Un ciclo sin fin</h1>
+			<h3 class="author"><span>By </span><a href="https://www.google.com/search?q=who+is+john+doe&ie=utf-8&oe=utf-8" target="_blank">Camila Montañez</a></h3>
+		</header>
+		<article>
+			<!-- Main Image -->
+
+
+			<br>
+			<figure>
+				<img src="images/PHOTO_constanza_gallardo_2.jpg" alt="">
+			<figcaption>CAMBIAR CAPTION
+			</figure>
+			<br/>
+			
+
+					<!-- Start story-->
+			<p>Kimberly Santiago sigue combatiendo su adicción a la heroína. Santiago de 33 años sufrió un accidente mientras cargaba platos en el restaurante donde trabajaba en Naples, Florida. Tras el accidente, su doctor le receto pastillas como Vicodin y Hydrocodone que son opioides para el dolor. </p>
+
+			<p>Su adicción por estos medicamentos empezó a incrementar. Segun Santiago, llego a tomar hasta 180 pastillas al mes. </p>
+
+			<!-- Audio-->
+			<br>
+			<figure>
+			<video src="video/AUDIO_Montanez_MariaCamila.mp3"></video>
+			</figure>
+			<br/>
+			<!-- End Audio / photo-->
+
+			<p>Hace cuatro años, Santiago decidió mudarse para el Bronx. Estuvo tres años viviendo en la calle. A veces dormía en un albergue. Un día no tenía su medicamento para el dolor de espalda que era tan insoportable. Ella le pidió a un amigo del albergue que le consiguiera algo. </p>
+
+			<p>“ Me sentía enferma. Mi amigo hizo una llamada para que me consiguiera algo. Me mostró esta cosa que era la heroína. El preparó todo y me ayudó. Esa fue la primera vez que probé la heroína. Y para ser honesta me quitó todo el dolor que tenia”.</p>
+
+			<p>Desde ese día Santiago empezó a consumir heroína todos los dias. Cuenta que compraba alrededor de 10 bolsitas a 100 dólares que le duraban entre uno y dos días. </p>
+
+			<p>Esta es la historia de Santiago y su adicción a la heroína, una droga que ha matado a más de mil personas en la ciudad de Nueva York según el departamento de salud. </p>
+
+			<p>Si quieres saber mas sobre como esta droga llega a las manos de adictos como Kimberly lee Detrás de la industria de heroina del Bronx, la sede central del tráfico en el noreste. </p>
+
+
+
+
+			<!-- End of article content -->
+		</article>
+
+		<!-- Footer content -->
+		<footer>
+			<p>Let's Keep in Touch</p>
+			<div class="contact-info">	<a href="mailto:someone@example.com"><i class="fa fa-envelope-o fa-3" aria-hidden="true"></i></a>
+				<a href="https://www.facebook.com/yourfbname" target="_blank"><i class="fa fa-facebook-official fa-3" aria-hidden="true"></i></a>
+				<a href="https://twitter.com/yourname" target="_blank"><i class="fa fa-twitter-square fa-3" aria-hidden="true"></i></a>
+			</div>
+		</footer>
+		<!-- Don’t forget to close the body and the html in your HTML file. In JSFIDDLE I don't need to close the html -->
+	</body>
+</html>
